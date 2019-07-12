@@ -10,10 +10,7 @@ using System.Diagnostics;
 
 namespace MDCC_TECHQ3
 {
-    //Based on the methods i assume it should be a minimal version heap memory and not a min-heap.
-    // Found it awkward to design as C# doesn't allow me to manually free memory and GC won't take it
-    // until all references to it are removed. Therefore all the references given out with tinyAlloc must
-    // be removed before DeleteTinyHeap works.
+    // TinyHeap class as presented in the screening doc. Please see github README.
     public class TinyHeap
     {
         int heapSize;
